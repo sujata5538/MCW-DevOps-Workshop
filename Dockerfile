@@ -19,4 +19,4 @@ RUN dotnet publish "TailspinToysWeb.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "TailspinToysWeb.dll"]
+ENTRYPOINT ["dotnet", "TailspinToysWeb.dll"https://github.com/dotnet-architecture/eShopOnContainers]

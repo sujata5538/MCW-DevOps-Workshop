@@ -11,8 +11,8 @@ on:
 env:
   resourcegroup: playground
   containerregistry: mcwgithubworkshopregistryname.azurecr.io
-  registryusername: mcwGithubWorkshopRegistryName
-  imagename: mcwGithubWorkshopRegistryName/tailspintoys/web
+  registryusername: mcwgithubworkshopregistryname
+  imagename: mcwgithubworkshopregistryname/tailspintoys/web
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
